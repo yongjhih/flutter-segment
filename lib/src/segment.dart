@@ -97,4 +97,29 @@ class Segment {
   static Future<void> setContext(Map<String, dynamic> context) {
     return _segment.setContext(context);
   }
+
+  static const String AVATAR_KEY = "avatar";
+  static const String CREATED_AT_KEY = "createdAt";
+  static const String DESCRIPTION_KEY = "description";
+  static const String EMAIL_KEY = "email";
+  static const String FAX_KEY = "fax";
+  static const String ANONYMOUS_ID_KEY = "anonymousId";
+  static const String USER_ID_KEY = "userId";
+  static const String NAME_KEY = "name";
+  static const String PHONE_KEY = "phone";
+  static const String WEBSITE_KEY = "website";
+  // For Identify Calls
+  static const String AGE_KEY = "age";
+  static const String BIRTHDAY_KEY = "birthday";
+  static const String FIRST_NAME_KEY = "firstName";
+  static const String GENDER_KEY = "gender";
+  static const String LAST_NAME_KEY = "lastName";
+  static const String TITLE_KEY = "title";
+  static const String USERNAME_KEY = "username";
+  // For Group calls
+  static const String EMPLOYEES_KEY = "employees";
+  static const String INDUSTRY_KEY = "industry";
+  // Address
+  static const String ADDRESS_KEY = "address";
+
 }
