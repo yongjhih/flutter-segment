@@ -122,4 +122,9 @@ class Segment {
   // Address
   static const String ADDRESS_KEY = "address";
 
+  static const String ADDRESS_CITY_KEY = "city";
+  static const String ADDRESS_COUNTRY_KEY = "country";
+  static const String ADDRESS_POSTAL_CODE_KEY = "postalCode";
+  static const String ADDRESS_STATE_KEY = "state";
+  static const String ADDRESS_STREET_KEY = "street";
 }
