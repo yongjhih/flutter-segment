@@ -588,3 +588,7 @@ healthchecksdb
 MigrationBackup/
 
 # End of https://www.gitignore.io/api/git,dart,flutter,intellij,webstorm,visualstudio
+
+.idea/
+.DS_Store
+*.iml
